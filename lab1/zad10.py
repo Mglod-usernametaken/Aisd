@@ -1,12 +1,12 @@
 def palindrom(wyraz):
 	flag = True
-	for i in range (int(len(wyraz))):
-		if wyraz[i] != wyraz[-(i+1)]:
+	for i in range (int(len(wyraz)/2)):
+		if wyraz[i] != wyraz[-(i+1)]: 
 			flag = False
-		print( wyraz[i]+ " " + wyraz[-(i+1)])
 	return (flag)
 		
 
-a = "kajk"
-print(int(3.5))
-print(palindrom(a))
+a = "kajak"
+b = "katmaran"
+print(a , palindrom(a))
+print(b, palindrom(b))
