@@ -116,3 +116,23 @@ print('\n')
 # list1.remove(n3)
 list1.display()
 print(list1)
+
+# ----------------------------------------------------------------------------------
+
+class Stack()
+    _storage: LinkedList
+
+    def __init__(self):
+        self._storage = LinkedList 
+
+    def __len__(self):
+        return len(self._storage)
+
+    def __str__(self)->Any:
+        string = ""
+        return string
+
+    def push(self, element: Any)-> None:
+
+    def pop(self) -> Any:
+        
