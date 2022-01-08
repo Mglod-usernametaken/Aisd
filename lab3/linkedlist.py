@@ -119,7 +119,7 @@ print(list1)
 
 # ----------------------------------------------------------------------------------
 
-class Stack()
+class Stack():
     _storage: LinkedList
 
     def __init__(self):
@@ -133,6 +133,6 @@ class Stack()
         return string
 
     def push(self, element: Any)-> None:
-
+        return
     def pop(self) -> Any:
-        
+        return
